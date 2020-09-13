@@ -55,6 +55,15 @@ main{
     & img{
       width: 100%;
       height: 100%;
+      &:first-child{
+        // display: none;
+      }
+      &:nth-child(2){
+        display: none;  
+      }
+      &:nth-child(3){
+        display: none;
+      }
     }
     & .all-current{
       width: 100px;
