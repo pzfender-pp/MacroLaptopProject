@@ -13,6 +13,7 @@ window.addEventListener('scroll', function(){
 const slidePic = document.querySelectorAll('#show-case img');
 const currentPic = document.querySelectorAll('.all-current div');
 const currentImg = document.querySelector('#show-case');
+
 let currentPicArr = Array.from(currentPic);
 
 function resetCurrentPic(){
