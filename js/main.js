@@ -1,5 +1,5 @@
 // Change navBar when scrolling
-const header = document.querySelector('#head-bar');
+const header = document.querySelector('header');
 window.addEventListener('scroll', function(){
   const scrolled = window.scrollY;
   if (scrolled > 10){

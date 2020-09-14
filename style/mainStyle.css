@@ -2,6 +2,32 @@
   background-color: #fff;
 }
 
+.btn-white {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #fff;
+  border-radius: 2px;
+  text-align: center;
+}
+
+.btn-white:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.btn-dark {
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 2px;
+  text-align: center;
+}
+
+.btn-dark:hover {
+  background-color: #fff;
+  color: #000;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -15,11 +41,24 @@ body {
   color: #fff;
 }
 
-header #head-bar {
+a {
+  text-decoration: none;
+}
+
+header {
   width: 100%;
   height: 70px;
-  padding: 20px;
   position: fixed;
+  position: fixed;
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+header #head-bar {
+  max-width: 980px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -34,33 +73,23 @@ header #head-bar {
       -ms-flex-align: center;
           align-items: center;
   color: #fff;
-  background-color: rgba(255, 255, 255, 0.2);
 }
 
 header #head-bar h1 {
-  font-size: 12px;
+  font-size: 0.8rem;
 }
 
 header #head-bar .profile a {
   padding: 5px 20px;
   margin: 0 5px;
-  text-decoration: none;
-  color: #fff;
-  background-color: rgba(0, 0, 0, 0.1);
-  font-size: 10px;
+  font-size: 0.6rem;
   font-weight: 500;
-  border: 1px solid #fff;
-  border-radius: 2px;
-}
-
-header #head-bar .profile a:last-child {
-  color: #000;
-  background-color: white;
 }
 
 main #show-case {
-  width: 100%;
+  max-width: 980px;
   height: 400px;
+  margin: 0 auto;
 }
 
 main #show-case img {
@@ -98,9 +127,14 @@ main #show-case .all-current {
 main #show-case .all-current .current-pic {
   width: 15px;
   height: 15px;
-  margin: 0 auto;
+  margin: 0px auto;
   border: 1px solid #fff;
   border-radius: 50%;
+}
+
+#intro {
+  max-width: 980px;
+  margin: 0 auto;
 }
 
 #intro .intro-text {
@@ -109,21 +143,18 @@ main #show-case .all-current .current-pic {
 }
 
 #intro .intro-text h3 {
-  font-size: 24px;
+  font-size: 1.3rem;
   padding: 5px;
 }
 
 #intro .intro-text p {
+  font-size: 0.8rem;
   padding: 2px;
   letter-spacing: 0.5px;
 }
 
-#intro .intro-text p:first-child {
-  font-size: 18px;
-}
-
 #intro .intro-text p:last-child {
-  font-size: 14px;
+  font-size: 1rem;
 }
 
 #intro .intro-pic {
@@ -137,7 +168,8 @@ main #show-case .all-current .current-pic {
 }
 
 #features {
-  margin: 10px;
+  max-width: 980px;
+  margin: 10px auto;
 }
 
 #features .performance-intro {
@@ -145,18 +177,18 @@ main #show-case .all-current .current-pic {
 }
 
 #features .performance-intro h3 {
-  font-size: 20px;
+  font-size: 1.3rem;
   margin-bottom: 5px;
 }
 
 #features .performance-intro p {
-  font-size: 13px;
+  font-size: 0.8rem;
   line-height: 20px;
 }
 
 #features h4 {
+  font-size: 0.9rem;
   padding: 10px;
-  font-size: 14px;
 }
 
 #features .performance-spec {
@@ -175,7 +207,7 @@ main #show-case .all-current .current-pic {
 #features .performance-spec div p {
   text-align: center;
   margin-top: 40px;
-  font-size: 12px;
+  font-size: 0.8rem;
   line-height: 20px;
 }
 
@@ -193,12 +225,12 @@ main #show-case .all-current .current-pic {
 }
 
 #design h3 {
-  font-size: 20px;
+  font-size: 1.3rem;
   margin-bottom: 5px;
 }
 
 #design p {
-  font-size: 13px;
+  font-size: 0.8rem;
   line-height: 20px;
 }
 
@@ -219,12 +251,12 @@ main #show-case .all-current .current-pic {
 }
 
 #product h3 {
-  font-size: 20px;
+  font-size: 1.3rem;
   margin-bottom: 5px;
 }
 
 #product p {
-  font-size: 13px;
+  font-size: 0.8rem;
   line-height: 20px;
 }
 
@@ -251,14 +283,8 @@ main #show-case .all-current .current-pic {
   margin: 10px auto;
   padding: 5px 20px;
   display: block;
-  text-decoration: none;
-  color: #fff;
-  background-color: rgba(0, 0, 0, 0.1);
-  font-size: 10px;
+  font-size: 0.7rem;
   font-weight: 500;
-  text-align: center;
-  border: 1px solid #fff;
-  border-radius: 2px;
 }
 
 #product .warp-spec div span {
@@ -271,7 +297,7 @@ main #show-case .all-current .current-pic {
 }
 
 #footer .services {
-  width: 300px;
+  max-width: 980px;
   margin: 5px auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -291,9 +317,8 @@ main #show-case .all-current .current-pic {
 #footer .services a {
   padding: 5px;
   margin: 10px;
-  text-decoration: none;
   color: #fff;
-  font-size: 12px;
+  font-size: 0.7rem;
 }
 
 #footer .subscript {
@@ -313,17 +338,129 @@ main #show-case .all-current .current-pic {
 }
 
 #footer .subscript button {
-  font-size: 12px;
+  font-size: 0.7rem;
   padding: 5px;
-  background-color: rgba(255, 255, 255, 0);
-  border: 1px solid #fff;
-  color: #fff;
 }
 
 #footer .copyright {
   margin-top: 10px;
   padding: 5px;
-  font-size: 12px;
+  font-size: 0.7rem;
   text-align: center;
+}
+
+@media only screen and (min-width: 700px) {
+  header {
+    height: 80px;
+  }
+  header #head-bar h1 {
+    font-size: 1.4rem;
+  }
+  header #head-bar .profile a {
+    font-size: 0.9rem;
+  }
+  main #show-case {
+    height: 700px;
+  }
+  main #show-case .all-current {
+    width: 130px;
+  }
+  main #show-case .all-current .current-pic {
+    width: 20px;
+    height: 20px;
+  }
+  #intro .intro-text h3 {
+    font-size: 1.6rem;
+    padding: 10px;
+  }
+  #intro .intro-text p {
+    font-size: 1rem;
+    padding: 5px;
+    letter-spacing: 1px;
+  }
+  #intro .intro-text p:last-child {
+    font-size: 1.2rem;
+  }
+  #intro .intro-pic {
+    height: 600px;
+  }
+  #features .performance-intro {
+    padding: 20px;
+  }
+  #features .performance-intro h3 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+  }
+  #features .performance-intro p {
+    font-size: 1rem;
+    line-height: 20px;
+  }
+  #features h4 {
+    font-size: 1.2rem;
+    padding: 20px;
+  }
+  #features .performance-spec div {
+    height: 150px;
+  }
+  #features .performance-spec div p {
+    margin-top: 50px;
+    font-size: 1rem;
+    line-height: 2em;
+  }
+  #design {
+    padding: 20px;
+  }
+  #design h3 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+  }
+  #design p {
+    font-size: 1rem;
+    line-height: 2em;
+  }
+  #design .design-pic div {
+    width: 75%;
+    height: 300px;
+    margin: 0 auto;
+  }
+  #product {
+    padding: 20px;
+  }
+  #product h3 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+  }
+  #product p {
+    font-size: 1rem;
+    line-height: 2em;
+  }
+  #product .product {
+    width: 75%;
+    height: 400px;
+    margin: 0 auto;
+  }
+  #product .warp-spec div {
+    padding: 20px;
+    width: 75%;
+  }
+  #product .warp-spec div a {
+    width: 100px;
+    height: 40px;
+    line-height: 1.8em;
+    font-size: 1rem;
+  }
+  #footer .services a {
+    font-size: 0.8rem;
+  }
+  #footer .subscript input {
+    width: 200px;
+  }
+  #footer .subscript button {
+    font-size: 0.7rem;
+  }
+  #footer .copyright {
+    margin-top: 5px;
+    font-size: 0.8rem;
+  }
 }
 /*# sourceMappingURL=mainStyle.css.map */

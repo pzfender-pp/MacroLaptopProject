@@ -1,0 +1,145 @@
+@mixin iPad-display{
+  @media only screen and (min-width: 700px){
+    // header
+    header{
+      height: 80px;
+      & #head-bar{
+        & h1{
+          font-size: 1.4rem;
+        }
+        & .profile a{
+          font-size: 0.9rem;
+        }
+      }
+    }
+    // show case
+    main{
+      & #show-case{
+        height: 700px;
+        & .all-current{
+          width: 130px;
+          & .current-pic{
+            width: 20px;
+            height: 20px;
+          }
+        } 
+      }
+    }
+    // introduction
+    #intro{
+      & .intro-text{
+        & h3{
+          font-size: 1.6rem;
+          padding: 10px;
+        }
+        & p{
+          font-size: 1rem;
+          padding: 5px;
+          letter-spacing: 1px;
+        }
+        & p:last-child{
+          font-size: 1.2rem;
+        }
+      }
+      & .intro-pic{
+        height: 600px;
+      }
+    }
+    // features
+    #features{
+      & .performance-intro{
+        padding: 20px;
+        & h3{
+          font-size: 1.6rem;
+          margin-bottom: 10px;
+        }
+        & p{
+          font-size: 1rem;
+          line-height: 20px;
+        }
+      }
+      & h4{
+        font-size: 1.2rem;
+        padding: 20px;
+      }
+      & .performance-spec{
+        & div{
+          height: 150px;
+          & p{
+            margin-top: 50px;
+            font-size: 1rem;
+            line-height: 2em;
+          }
+        }
+      }
+    }
+    // design
+    #design{
+      padding: 20px;
+      & h3{
+        font-size: 1.6rem;
+        margin-bottom: 10px;
+      }
+      & p{
+        font-size: 1rem;
+        line-height: 2em;
+      }
+      & .design-pic{
+        & div{
+          width: 75%;
+          height: 300px;
+          margin: 0 auto;
+        }
+      }
+    }
+    // product
+    #product{
+      padding: 20px;
+      & h3{
+        font-size: 1.6rem;
+        margin-bottom: 10px;
+      }
+      & p{
+        font-size: 1rem;
+        line-height: 2em;
+      }
+      & .product{
+        width: 75%;
+        height: 400px;
+        margin: 0 auto;
+      }
+      & .warp-spec{
+        & div{
+          padding: 20px;
+          width: 75%;
+          & a{
+            width: 100px;
+            height: 40px;
+            line-height: 1.8em;
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+    // footer
+    #footer{
+      & .services{
+        & a{
+          font-size: 0.8rem;
+        }
+      }
+      & .subscript{
+        & input{
+          width: 200px;
+        }
+        & button{
+          font-size: 0.7rem;
+        }
+      }
+      & .copyright{
+        margin-top: 5px;
+        font-size: 0.8rem;
+      }
+    } 
+  }
+}

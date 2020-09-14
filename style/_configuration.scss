@@ -2,6 +2,29 @@
   background-color: #fff;
 }
 
+.btn-white{
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #fff;
+  border-radius: 2px;
+  text-align: center;
+  &:hover{
+    background-color: #000;
+    color: #fff;
+  }
+}
+
+.btn-dark{
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 2px;
+  text-align: center;
+  &:hover{
+    background-color: #fff;
+    color: #000;
+  }
+}
 
 
 
@@ -11,9 +34,3 @@
   justify-content: $justify;
   align-items: $align;
 }
-
-@mixin a-tag ($text-color) {
-  text-decoration: none;
-  color: $text-color
-}
-
