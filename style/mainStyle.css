@@ -220,7 +220,8 @@ main #show-case .all-current .current-pic {
 }
 
 #design {
-  margin: 10px;
+  max-width: 980px;
+  margin: 10px auto;
   padding: 10px;
 }
 
@@ -246,7 +247,8 @@ main #show-case .all-current .current-pic {
 }
 
 #product {
-  margin: 10px;
+  max-width: 980px;
+  margin: 10px auto;
   padding: 10px;
 }
 
@@ -349,7 +351,7 @@ main #show-case .all-current .current-pic {
   text-align: center;
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 500px) {
   header {
     height: 80px;
   }
@@ -461,6 +463,111 @@ main #show-case .all-current .current-pic {
   #footer .copyright {
     margin-top: 5px;
     font-size: 0.8rem;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  main #show-case {
+    height: 800px;
+  }
+  main #show-case .all-current .current-pic {
+    width: 25px;
+    height: 25px;
+  }
+  #intro .intro-text h3 {
+    font-size: 1.8rem;
+    padding: 10px;
+  }
+  #intro .intro-text p {
+    font-size: 1rem;
+    padding: 5px;
+  }
+  #intro .intro-text p:last-child {
+    font-size: 1.3rem;
+  }
+  #intro .intro-pic {
+    height: 600px;
+  }
+  #features .performance-intro h3 {
+    font-size: 1.8rem;
+    padding: 10px;
+  }
+  #features .performance-intro p {
+    font-size: 1rem;
+    padding: 10px;
+  }
+  #features h4 {
+    font-size: 1.5rem;
+    padding-left: 30px;
+  }
+  #features .performance-spec div {
+    height: 250px;
+  }
+  #features .performance-spec div p {
+    margin-top: 100px;
+    font-size: 1.3rem;
+    line-height: 30px;
+  }
+  #design h3 {
+    font-size: 1.8rem;
+    padding: 10px;
+  }
+  #design p {
+    font-size: 1rem;
+    padding: 10px;
+  }
+  #design .design-pic {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #design .design-pic div {
+    width: 100%;
+    padding: 10px;
+  }
+  #product h3 {
+    font-size: 1.8rem;
+    padding: 10px;
+  }
+  #product p {
+    font-size: 1.3rem;
+    padding: 10px;
+  }
+  #product .product {
+    height: 600px;
+  }
+  #product .warp-spec div a {
+    width: 100px;
+    font-size: 1rem;
+  }
+  #footer .services a {
+    font-size: 1rem;
+  }
+  #footer .subscript input {
+    width: 200px;
+    margin-right: 10px;
+    padding-left: 5px;
+    outline: none;
+  }
+  #footer .subscript button {
+    font-size: 0.7rem;
+    padding: 5px;
+  }
+  #footer .copyright {
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 0.7rem;
+    text-align: center;
   }
 }
 /*# sourceMappingURL=mainStyle.css.map */
