@@ -155,7 +155,8 @@ main{
 
 // design
 #design{
-  margin: 10px;
+  max-width: 980px;
+  margin: 10px auto;
   padding: 10px;
   & h3{
     font-size: 1.3rem;
@@ -181,7 +182,8 @@ main{
 // product
 
 #product{
-  margin: 10px;
+  max-width: 980px;
+  margin: 10px auto;
   padding: 10px;
   & h3{
     font-size: 1.3rem;
@@ -258,3 +260,4 @@ main{
   }
 }
 @include iPad-display;
+@include widescreen;
